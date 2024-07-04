@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-measurement"
+version = "0.0.1"
+description = "This package adds the ability to store measurements in Django fields."
+authors = ["Jaryd Rester <github@jarydrester.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.6"
+measurement = "^3.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
